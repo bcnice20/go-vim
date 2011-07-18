@@ -6,7 +6,7 @@ This provide basic support for the Go programming language by Google
 
 Installation
 -----------
-	git clone 
+	git clone git://github.com/bcnice20/go-vim.git
 	cd ~/go-vim
 	./install.sh
 
