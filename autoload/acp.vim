@@ -135,7 +135,7 @@ endfunction
 "
 function acp#meetsForGoOmni(context)
   return g:acp_behaviorGoOmniLength >= 0 &&
-        \ a:context =~ '[^. \t]\(\.\|\)\k\{' . 
+        \ a:context =~ '[^. \t]\(\.\| \)\k\{' . 
 				\							 g:acp_behaviorGoOmniLength . ',}$'
 endfunction
 
