@@ -20,11 +20,17 @@ Notes
 ----
 for these plugins to work properly you need to add these lines to your vimrc
 	`set ofu=syntaxcomplete#Complete
+
 	let Omnifunc_GlobalScopeSearch   = 1
+
 	let Omnifunc_DisplayMode         = 1
+
 	let Omnifunc_ShowPrototypeInAbbr = 1 "show prototype in pop-up
+
 	let Omnifunc_ShowAccess          = 1 "show access in pop-up
+
 	let Omnifunc_SelectFirstItem     = 1 "select first item in pop-up
+
 	set completeopt=menuone,menu,longest`
 
 In order for autocomplete to work properly you must install gocode
